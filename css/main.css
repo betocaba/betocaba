@@ -70,12 +70,6 @@ header img {
   max-width: 280px;
 }
 
-@media (max-width: 400px) {
-  header img {
-    max-width: 200px;
-  }
-}
-
 main {
   padding: 1rem 1rem 6rem;
 }
@@ -162,5 +156,17 @@ main .social-nav ul li:last-child {
 
 footer {
   padding: 1rem;
+}
+
+@media (max-width: 400px) {
+  header {
+    padding: 2rem 1rem 1rem;
+  }
+  header img {
+    max-width: 200px;
+  }
+  main {
+    padding: 1rem 1rem 3.5rem;
+  }
 }
 /*# sourceMappingURL=main.css.map */
